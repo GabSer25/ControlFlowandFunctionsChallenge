@@ -34,3 +34,9 @@ do {
     console.log(`Survey response #${responses + 1}`);
     responses++;
 } while (responses < 3);
+// Task 5 - Employee Information
+let employee = { name: "Alice", position: "Manager", salary: 75000 };
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}

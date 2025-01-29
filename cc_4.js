@@ -9,3 +9,12 @@ if (purchaseAmount > 100) {
 } else {
     console.log(`Final amount: $${purchaseAmount}`);
 }
+// Task 2 - Sales Report
+let sales = [230, 95, 310, 180, 140]; 
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i];
+}
+
+console.log(`Total sales: $${totalSales}`);

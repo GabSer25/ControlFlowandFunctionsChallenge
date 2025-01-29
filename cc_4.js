@@ -40,3 +40,9 @@ let employee = { name: "Alice", position: "Manager", salary: 75000 };
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
+// Task 6 - Product Listings
+let products = ["Monitor", "Headphones", "Webcam"];
+
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}

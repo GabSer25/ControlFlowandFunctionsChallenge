@@ -47,7 +47,7 @@ for (let product of products) {
     console.log(`Product: ${product}`);
 }
 // Task 7 - Order Processing
-let orders = [202, 305, 410];
+let orders = [203, 305, 410];
 
 orders.forEach(order => {
     console.log(`Processing order ID: ${order}`);
@@ -58,3 +58,10 @@ function calculateTax(amount, taxRate) {
 }
 
 console.log(`Tax on $150 at 8%: $${calculateTax(150, 0.08)}`);
+// Task 9 - Discount Application
+const applyDiscount = function(price, discountPercent) {
+    return price - (price * (discountPercent / 100));
+};
+
+console.log(`Price after 20% discount: $${applyDiscount(100, 20)}`);
+

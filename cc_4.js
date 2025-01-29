@@ -27,3 +27,10 @@ while (stock > 0) {
 }
 
 console.log("Stock is now empty.");
+// Task 4 - Customer Survey
+let responses = 0;
+
+do {
+    console.log(`Survey response #${responses + 1}`);
+    responses++;
+} while (responses < 3);
